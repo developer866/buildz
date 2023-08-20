@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Mobile first */
+body {
+  width: fit-content;
+  margin: 0 auto;
+  /* padding: 1rem; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-family: 'Courier New', Courier, monospace; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+}
+.img-main {
+  width: 100%;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.welcome {
+  margin: 3rem 0;
+  padding: 0rem 1rem;
+}
+.button-dark {
+  border: 1px solid rgba(0, 0, 0, 0.367);
+  color: white;
+  background: black;
+  padding: 0.5rem 1rem;
+  margin: 2rem 0;
+  border-radius: 0.4rem;
+}
+.button-light {
+  border: 1px solid black;
+  color: black;
+  background: white;
+  padding: 0.5rem 1rem;
+  margin: 2rem 0;
+  border-radius: 0.4rem;
+}
+.working-lady {
+  text-align: center;
+}
+.services {
+  text-align: center;
+  border: 1px solid black;
+  margin: 2rem;
+  padding: 1rem;
+  z-index: 25;
+}
+.services img {
+  background: white;
+}
+.services h1 {
+  margin: 1.5rem 0;
+}
+.achivement {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 2rem;
+}
+#achive-h1 {
+  margin-top: rem;
+}
+#achive-p {
+  margin: 2rem 0;
+}
+.bar img {
+  width: 100px;
+}
+.result-container {
+  padding: 1rem;
+}
+#result {
+  margin-top: 3rem;
+}
+#result-dark {
+  background: black;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+.startup {
+  text-align: left;
+  /* padding-bottom: 1.7rem; */
+  padding: 1.6rem 1rem;
+}
+.startup-box {
+  padding-bottom: 1rem;
+}
+.pricing {
+  text-align: center;
+}
+.pricing--1 {
+  text-align: center;
+  padding: 2rem;
+}
+.pricing-box {
+  text-align: center;
+  outline: 1px solid black;
+  padding: 1rem;
+  margin: 2rem;
+}
+.pricing-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.pricing-list img {
+  width: 6%;
+  margin-right: 1rem;
+}
+.networking {
+  padding: 1rem;
+}
+.networking h3 {
+  margin: 1rem 0;
+}
+.networking p {
+  margin: 0.3rem 0;
+}
+.get-in-touch {
+  text-align: center;
+  padding: 1rem;
+}
+input {
+  width: 90%;
+  margin: 1rem auto;
+  padding: 1rem;
+}
+#get {
+  margin: 1rem 0;
+}
+.footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+.footer img {
+  margin: 1rem 0;
+  color: white;
+}
+ul {
+  text-decoration: none;
+  margin: 1.5rem 0rem;
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  display: flex;
+  list-style: none;
+}
+li a {
+  color: white;
+  text-decoration: none;
+}
+@media (min-width: 520px) {
+  body {
+    width: 70%;
+  }
+  .welcome {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  #making {
+    width: 100%;
+  }
+  .img-main {
+    width: 100%;
+    height: 300px;
+    /* display: none; */
+  }
+  .main-service {
+    display: flex;
+    justify-content: space-between;
+  }
+  .services {
+    width: 300px;
+  }
+  #achive-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .result-container {
+    display: flex;
+    width: 50%;
+  }
+  .startup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+  .pricing-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .pricing-list{
+    padding: 0;
+  }
+  .networking-container {
+    display: flex;
+  }
+  .get-form {
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-form img {
+    width: 45%;
+  }
+  .get-form form {
+    width: 60%;
+  }
+
+  .textarea {
+    width: 90%;
+  }
+
+  ul {
+    justify-content: space-evenly;
+  }
+  #copyright {
+    border-top: 1px solid white;
+    width: 60%;
+    padding: 2rem;
+    margin: 2rem auto;
+  }
+}
